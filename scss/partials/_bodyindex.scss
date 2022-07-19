@@ -1,0 +1,33 @@
+body{
+    .capa {
+        background: repeat;
+        background: linear-gradient(130deg,#509fc9,#e83b59);
+        .text-center {
+            text-align: center;	
+            .icon {
+                width: 300px;
+            }
+        }
+
+        }
+        @keyframes animateGaga {
+            0%{background-image: url(../imagen/portada1.jpg);}
+            5%{background-image: url(../imagen/portada2.jpg);}
+            10%{background-image: url(../imagen/portada3.jpg);}
+            15%{background-image: url(../imagen/portada4.jpg);}
+            20%{background-image: url(../imagen/portada5.jpg);}
+            25%{background-image: url(../imagen/portada6.jpg);}
+            30%{background-image: url(../imagen/portada7.jpg);}
+            40%{background-image: url(../imagen/portada8.jpg);}
+            50%{background-image: url(../imagen/portada9.jpg);}
+        }
+        .text-center wow bounceInLeft {
+            text-align: center;	
+        }
+        .piecito {
+            position: absolute;
+            bottom: 0;
+            width: 40%;
+            height: 30px
+        }
+    }
